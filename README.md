@@ -22,6 +22,8 @@
 
 [前端连接](http://housepage.autumnsun.top "https://github.com/qq841557053/house_control_system_vue") 
 `https://github.com/qq841557053/house_control_system_vue`
+* 默认账号 qianhuazheng 默认密码 123456 权限 user(顾客)
+* 默认账号 zhangxiaoyu 默认密码 123456 权限 seller(房东)
 
 # 项目采用的技术
 * 项目整体采用前后端分离, 前端整体使用Vue.js框架, elementui组件, 使用模板 vue-element-admin,
@@ -101,23 +103,6 @@
 * 求租: order-buyy-157966780323412345678
 * 售后: order-ques-157966780323412345678
 
-# 路由权限规定
-下表表示每个页面对应的角色
-
-|模块	|页面/路由	|角色|
-|------|------|------|
-|首页展示	|首页展示|	user/seller/admin/yechrom|
-|用户管理	|用户新增|	admin/yechrom|
-||	用户查看	|admin/yechrom|
-|房源查看	|在租房源	|user/seller/yechrom|
-| |求租房源	|user/seller/yechrom|
-|发布订单	我是房东	|seller/yechrom|
-| |我是顾客	|user/yechrom|
-|售后服务	|提交售后单 |	user/yechrom|
-|我的	|我买的|	user/yechrom|
-| |我卖的	|seller/yechrom|
-| |问题单|	admin/yechrom|
-
 # 订单状态
 ## 出租房源订单状态
 |状态码	|状态	|备注|
@@ -133,9 +118,9 @@
 |2	|完成	| |
 |0|	取消|	取消了单|
 
-##出租房源订单状态
+## 出租房源订单状态
 |状态码|	状态|	备注|
-|-----|-----|----|
+|-----|-----|-----|
 |1	|发布	|刚发布的订单状态|
 |2	|处理中	| | 
 |3	|完成	| |
