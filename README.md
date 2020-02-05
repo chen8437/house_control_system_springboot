@@ -19,11 +19,11 @@
 [房屋中介管理系统](http://housepage.autumnsun.top "点击跳转") 
 `http://housepage.autumnsun.top`
 `应该还能用一段时间 不知道什么时候会挂掉`
-
-[前端连接](http://housepage.autumnsun.top "https://github.com/qq841557053/house_control_system_vue") 
-`https://github.com/qq841557053/house_control_system_vue`
 * 默认账号 qianhuazheng 默认密码 123456 权限 user(顾客)
 * 默认账号 zhangxiaoyu 默认密码 123456 权限 seller(房东)
+
+[前端连接](https://github.com/qq841557053/house_control_system_vue "点击跳转") 
+`https://github.com/qq841557053/house_control_system_vue`
 
 # 项目采用的技术
 * 项目整体采用前后端分离, 前端整体使用Vue.js框架, elementui组件, 使用模板 vue-element-admin,
